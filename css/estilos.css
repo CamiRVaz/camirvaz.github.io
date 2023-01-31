@@ -1,0 +1,134 @@
+/*BODY*/
+
+body{
+    background: #cfd8dc;
+    color: #37474f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*HEADER*/
+
+.cv_container{
+    background: white;
+    max-width: 60%;
+}
+
+.cv_header{
+    padding: 50px 25px 50px 25px;
+    background: #00bfa5;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.datos_nombre{
+    font-size: 55px;
+}
+
+.datos_ocupacion{
+    margin-top: -35px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.datos_resumen{
+    width: 95%;
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    border-radius: 100%;
+    border: solid 7px #00695c;
+}
+
+/*CONTACTO*/
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.contacto_container:hover{
+    color: #ffc107;
+}
+
+a:hover{
+    color: #ffc107;
+}
+
+.cv_contacto{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: #00695c;
+    color: white;
+}
+
+/*SECCIONES*/
+
+.body_container{
+    padding: 50px;
+    display: flex;
+}
+
+.section_container{
+    width: 75%;
+}
+
+.section_head{
+    display: flex;
+    align-items: center;
+}
+
+.arrow_container{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow_container.hidden{
+    display: none;
+}
+
+i.fa.fa-angle-down, i.fa.fa-angle-up{
+    font-size: 30px;;
+}
+
+i.fa.fa-angle-down:hover, i.fa.fa-angle-up:hover{
+    font-size: 45px;
+    color: #ffc107;
+}
+
+.cv_section{
+    padding: 25px;
+}
+
+/*HABILIDADES*/
+
+.cv_aside{
+    padding: 25px;
+}
+
+.habilidades_item{
+    background: #00bfa5;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin: 8px;
+    text-align: center;
+}
+
+.habilidades_item:hover{
+    background: #ffc107;
+    padding: 10px;
+    font-weight: 600;
+}
