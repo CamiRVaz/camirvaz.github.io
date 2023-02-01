@@ -4,14 +4,14 @@ function accionFlecha(id_flecha_hide, id_flecha_show, id_seccion, accion) {
         console.log("Mostrar la seccion "+id_seccion);
         document.getElementById(id_flecha_show).style.display = "none";
         document.getElementById(id_seccion).style.display = "block";
-        document.getElementById(id_flecha_hide).style.display = "block";
+        document.getElementById(id_flecha_hide).style.display = "flex";
     }
     else
     {
         console.log("Esconder la seccion "+id_seccion);
         document.getElementById(id_flecha_hide).style.display = "none";
         document.getElementById(id_seccion).style.display = "none";
-        document.getElementById(id_flecha_show).style.display = "block";
+        document.getElementById(id_flecha_show).style.display = "flex";
     }
 }
 

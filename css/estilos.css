@@ -79,7 +79,7 @@ a:hover{
 }
 
 .section_container{
-    width: 75%;
+    width: 65%;
 }
 
 .section_head{
@@ -115,7 +115,8 @@ i.fa.fa-angle-down:hover, i.fa.fa-angle-up:hover{
 /*HABILIDADES*/
 
 .cv_aside{
-    padding: 25px;
+    padding: 25px 0px 25px 25px;
+    height: 350px;
 }
 
 .habilidades_item{
@@ -125,6 +126,7 @@ i.fa.fa-angle-down:hover, i.fa.fa-angle-up:hover{
     color: white;
     margin: 8px;
     text-align: center;
+    width: 280px;
 }
 
 .habilidades_item:hover{
